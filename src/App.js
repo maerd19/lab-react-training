@@ -7,6 +7,7 @@ import BoxColor from './components/BoxColor/BoxColor';
 import CreditCard from './components/CreditCard/CreditCard';
 import Rating from './components/Rating/Rating';
 import DriverCard from './components/DriverCard/DriverCard';
+import LikeButton from './components/LikeButton/LikeButton';
 
 class App extends Component {
   render() {
@@ -103,6 +104,8 @@ class App extends Component {
           }} 
         />
 
+        <h1>LikeButton</h1>
+        <LikeButton /> <LikeButton />
       </div>
     );
   }
